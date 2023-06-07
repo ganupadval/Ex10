@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "Gen1",
+  "version": "1.0",
+  "description": "Makes task smooth",
+
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content_script.js"],
+      "css": ["content_styles.css"],
+      "all_frames": true
+    }
+  ],
+  "permissions": ["activeTab"]
+}
