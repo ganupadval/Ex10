@@ -22,7 +22,7 @@
 .selection-options button {
   display: block;
   width: 100%;
-  padding: 6.5px 10px;
+  padding: 4.5px 8px;
   font-size: 13px;
   margin: 3px;
   border-radius: 4px;
@@ -38,4 +38,47 @@
 
 .selection-options button:last-child {
   margin-bottom: 0;
+}
+
+.definition-window {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  background-color: #333333;
+  border-radius: 4px;
+  padding: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  z-index: 9999;
+  color: #ffffff;
+  font-family: Arial, sans-serif;
+  font-size: medium;
+  max-width: 300px;
+  overflow: auto;
+}
+
+.definition-window h2 {
+  margin: 0;
+  color: #ffffff;
+  font-size: 18px;
+}
+
+.definition-window hr {
+  border-color: #ffffff;
+  margin: 10px 0;
+}
+
+.definition-window .details {
+  margin-bottom: 10px;
+}
+
+.definition-window .details p {
+  margin: 0;
+}
+
+.definition-window .word-meaning {
+  margin-bottom: 10px;
+}
+
+.definition-window .word-example {
+  font-style: italic;
 }
